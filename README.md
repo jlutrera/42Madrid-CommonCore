@@ -6,6 +6,13 @@
  - [Minitalk](https://github.com/jlutrera/minitalk): Data exchange via UNIX signals.
  - [FDF](https://github.com/jlutrera/FdF): 3D wireframe rendering.
  - [philosophers](https://github.com/jlutrera/philosophers): Threads and mutex synchronization.
+   - El proyecto presenta cierto retraso en la ejecución que se resuelve simplificando los mensajes (dejar el texto sin más)
+Pierde vistosidad y gana en eficiencia de ejecución.  En la última versión he añadido un flag (-v) que muestra el programa como lo tenía.  Sin éste flag se muestra el texto sin tanto formato, ganando en tiempo de ejecución y funcionando mejor el algoritmo.
+
+Para ver CON formato:
+		./philo -v arg1 arg2 arg3 arg4 [arg5] 
+y sin formato:
+		./philo arg1 arg2 arg3 arg4 [arg5] 
  - [minishell](https://github.com/jlutrera/minishell): Simple shell implementation.
  - [miniRT](https://github.com/jlutrera/miniRT): Basic ray tracing renderer.
  - [NetPractice](https://github.com/jlutrera/NetPractice): Networking exercises.
