@@ -1,0 +1,74 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_errors.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: adpachec <adpachec@student.42madrid.com>   +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/03/24 12:53:17 by adpachec          #+#    #+#             */
+/*   Updated: 2023/03/24 13:27:28 by adpachec         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "minishell.h"
+
+int	cd_error(char *s, char *dir)
+{
+	ft_putstr_fd("minishell: cd:", STDERR_FILENO);
+	ft_putstr_fd(s, STDERR_FILENO);
+	ft_putstr_fd(": No such file or directory\n", STDERR_FILENO);
+	if (s)
+		free(s);
+	free(dir);
+	return (1);
+}
+
+void	cmd_error(int err)
+{
+	perror(strerror(err));
+}
+
+void	exit_error(int err)
+{
+	perror("error\n");
+	exit(err);
+}
+
+int	exit_error_token(int err, char *token)
+{
+	char	c;
+
+	if (err == -2)
+	{
+		ft_putstr_fd("minishell: syntax error near ", STDERR_FILENO);
+		ft_putstr_fd("unexpected token `", STDERR_FILENO);
+		c = *token;
+		if (c != ' ')
+			write(2, &c, 1);
+		else
+			ft_putstr_fd("newline", STDERR_FILENO);
+		write(2, "\'\n", 2);
+	}
+	if (err == -1)
+	{
+		ft_putstr_fd("minishell: open quotes. Please close ", STDERR_FILENO);
+		ft_putstr_fd("quotes if you use them\n", STDERR_FILENO);
+	}
+	return (-1);
+}
+
+int	export_errors(char *s)
+{
+	if (s[0] == '=')
+	{
+		ft_putstr_fd("minishell: export: bad identifier\n", STDERR_FILENO);
+		return (1);
+	}
+	else if (!ft_isalpha(s[0]) && s[0] != '_')
+	{
+		ft_putstr_fd("minishell: export: bad identifier\n", \
+			STDERR_FILENO);
+		return (1);
+	}
+	return (0);
+}
