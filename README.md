@@ -8,9 +8,9 @@ Each project explores a different area of programming, systems, and algorithms.
 ## 📑 Table of Contents
 - [📚 Libft](#-libft)
 - [🖨️ ft_printf](#️-ft_printf)
-- [📄 Get_next_line](#-get-next-line)
+- [📄 Get_next_line](#-get_next_line)
 - [🛡️ Born2beroot](#️-born2beroot)
-- [🔢 Push_swap](#-push-swap)
+- [🔢 Push_swap](#-push_swap)
 - [📡 Minitalk](#-minitalk)
 - [🕸️ FDF](#-fdf)
 - [🤔 Philosophers](#-philosophers)
