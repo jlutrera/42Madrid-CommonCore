@@ -6,51 +6,51 @@ Each project explores a different area of programming, systems, and algorithms.
 ---
 
 ## 📑 Table of Contents
-- [📚 Libft](#-libft)
-- [🖨️ ft_printf](#️-ft_printf)
-- [📄 Get_next_line](#-get_next_line)
-- [🛡️ Born2beroot](#️-born2beroot)
-- [🔢 Push_swap](#-push_swap)
-- [📡 Minitalk](#-minitalk)
-- [🕸️ FDF](#-fdf)
-- [🤔 Philosophers](#-philosophers)
-- [💻 Minishell](#-minishell)
-- [🌌 MiniRT](#-minirt)
-- [🌐 NetPractice](#-netpractice)
-- [⚙️ CPP 00–04](#️-cpp-0004)
-- [⚙️ CPP 05–09](#️-cpp-0509)
-- [🐳 Inception](#-inception)
-- [🌍 Webserv](#-webserv)
-- [🏓 Transcendence](#-transcendence)
+- [📚 Libft](#libft)
+- [🖨️ ft_printf](#️ft_printf)
+- [📄 Get_next_line](#get_next_line)
+- [🛡️ Born2beroot](#️born2beroot)
+- [🔢 Push_swap](#push_swap)
+- [📡 Minitalk](#minitalk)
+- [🕸️ FDF](#fdf)
+- [🤔 Philosophers](#philosophers)
+- [💻 Minishell](#minishell)
+- [🌌 MiniRT](#minirt)
+- [🌐 NetPractice](#netpractice)
+- [⚙️ CPP 00–04](#️cpp-0004)
+- [⚙️ CPP 05–09](#️cpp-0509)
+- [🐳 Inception](#inception)
+- [🌍 Webserv](#webserv)
+- [🏓 Transcendence](#transcendence)
 
 ---
 
-## 📚 Libft
+## Libft
 General-purpose C library with custom implementations of standard functions.
 
 ---
 
-## 🖨️ ft_printf
+## ft_printf
 Reimplementation of the standard `printf()` function in C.
 
 ---
 
-## 📄 Get_next_line
+## Get_next_line
 Function that returns a line from a file descriptor.
 
 ---
 
-## 🛡️ Born2beroot
+## Born2beroot
 Systems administration exercise focused on virtualization and Linux basics.
 
 ---
 
-## 🔢 Push_swap
+## Push_swap
 Stack sorting algorithm with minimal operations.
 
 ---
 
-## 📡 Minitalk
+## Minitalk
 Data exchange between processes using **UNIX signals**.
 
 ---
@@ -60,7 +60,7 @@ Data exchange between processes using **UNIX signals**.
 
 ---
 
-## 🤔 Philosophers
+## Philosophers
 Thread synchronization project using **mutexes**.
 
 ### ⚠️ Performance Notes
@@ -79,17 +79,17 @@ With the -v flag, the program displays the original formatted output. Without it
 
 ---
 
-## 💻 Minishell
+## Minishell
 Implementation of a simple shell that reproduces basic Bash behavior. Includes process management, redirections, pipes, and built-in commands.
 
 ---
 
-## 🌌 MiniRT
+## MiniRT
 Basic ray tracing renderer. Generates realistic images from geometric objects and light sources.
 
 ---
 
-## 🌐 NetPractice
+## NetPractice
 Practical networking exercises to understand:
 - IP addressing.
 - Subnetting.
@@ -97,7 +97,7 @@ Practical networking exercises to understand:
 
 ---
 
-## ⚙️ CPP 00–04
+## CPP 00–04
 C++ modules covering the fundamentals of object-oriented programming:
 - Classes and objects.
 - Constructors and destructors.
@@ -106,7 +106,7 @@ C++ modules covering the fundamentals of object-oriented programming:
 
 ---
 
-## ⚙️ CPP 05–09
+## CPP 05–09
 Advanced C++ modules with:
 - Inheritance and polymorphism.
 - Templates.
@@ -115,19 +115,19 @@ Advanced C++ modules with:
 
 ---
 
-## 🐳 Inception
+## Inception
 System administration project using Docker. Goal: deploy services in containers (WordPress, MariaDB, Nginx) with automated configuration. 
-More details in its [readme.md](https://github.com/jlutrera/42Madrid-CommonCore/blob/main/C5_Inception/readme.md)
+More details in its [readme.md](C5_Inception/readme.md)
 
 ---
 
-## 🌍 Webserv
+## Webserv
 Implementation of an HTTP server in C++. 
 Supports multiple connections, GET/POST requests, and CGI execution.
 
 ---
 
-## 🏓 Transcendence
+## Transcendence
 Full web application for a Pong tournament. Features:
 - User authentication.
 - Real-time chat.
