@@ -12,7 +12,7 @@ Each project explores a different area of programming, systems, and algorithms.
 - [🛡️ Born2beroot](#️-born2beroot)
 - [🔢 Push_swap](#-push_swap)
 - [📡 Minitalk](#-minitalk)
-- [🕸️ FDF](#fdf)
+- [🕸️ FDF](#-fdf)
 - [🤔 Philosophers](#-philosophers)
 - [💻 Minishell](#-minishell)
 - [🌌 MiniRT](#-minirt)
