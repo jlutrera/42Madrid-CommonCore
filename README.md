@@ -59,3 +59,19 @@ Data exchange between processes using **UNIX signals**.
 3D wireframe rendering project.
 
 ---
+
+## 🤔 Philosophers
+Proyecto de sincronización de **hilos** y uso de **mutex**.
+
+### ⚠️ Notas de rendimiento
+El proyecto presentaba cierto retraso en la ejecución debido al formato de los mensajes.  
+La solución fue simplificar la salida, añadiendo un flag `-v` para alternar entre los dos modos:
+
+- **Modo con formato (menos eficiente):**
+  ```bash
+  ./philo -v arg1 arg2 arg3 arg4 [arg5]
+- **Modo sin formato (más eficiente):**
+  ```bash
+  ./philo arg1 arg2 arg3 arg4 [arg5]
+
+Con el flag -v se muestra el programa con el formato original. Sin este flag, el programa gana en eficiencia y el algoritmo funciona mejor.
