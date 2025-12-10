@@ -137,7 +137,7 @@ Incluye:
 - Integración con API externas.
 - Interfaz moderna y responsive.
 
-Tienes más información en su [readme.md](https://github.com/jlutrera/42Madrid-CommonCore/blob/main/readme.md)
+Tienes más información en su [readme.md](C6_ft_transcendence/readme.md)
 
 ✨ Este es el **último proyecto** del 42 Common Core.
 
