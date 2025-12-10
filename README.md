@@ -55,7 +55,7 @@ Data exchange between processes using **UNIX signals**.
 
 ---
 
-## 🕸️ FDF
+## FDF
 3D wireframe rendering project.
 
 ---
