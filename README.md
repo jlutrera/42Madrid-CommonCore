@@ -71,7 +71,7 @@ The solution was to simplify the output, adding a `-v` flag to toggle between tw
   ```bash
   ./philo -v arg1 arg2 arg3 arg4 [arg5]
 
-- **No visual mode (more eficiente):**
+- **No visual mode (more efficient):**
   ```bash
   ./philo arg1 arg2 arg3 arg4 [arg5]
 
@@ -136,5 +136,5 @@ Full web application for a Pong tournament. Features:
 
 More details in its [readme.md](C6_ft_transcendence/readme.md)
 
-✨ Este es el **último proyecto** del 42 Common Core.
+✨ This is the **last project** of Common Core.
 
