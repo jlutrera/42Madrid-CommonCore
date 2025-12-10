@@ -8,20 +8,20 @@ Each project explores a different area of programming, systems, and algorithms.
 ## 📑 Table of Contents
 - [📚 Libft](#-libft)
 - [🖨️ ft_printf](#️-ft_printf)
-- [📄 get_next_line](#-get-next-line)
+- [📄 Get_next_line](#-get-next-line)
 - [🛡️ Born2beroot](#️-born2beroot)
-- [🔢 push_swap](#-push-swap)
+- [🔢 Push_swap](#-push-swap)
 - [📡 Minitalk](#-minitalk)
 - [🕸️ FDF](#-fdf)
 - [🤔 Philosophers](#-philosophers)
-- [💻 minishell](#-minishell)
-- [🌌 miniRT](#-minirt)
+- [💻 Minishell](#-minishell)
+- [🌌 MiniRT](#-minirt)
 - [🌐 NetPractice](#-netpractice)
 - [⚙️ CPP 00–04](#️-cpp-0004)
 - [⚙️ CPP 05–09](#️-cpp-0509)
 - [🐳 Inception](#-inception)
-- [🌍 webserv](#-webserv)
-- [🏓 ft_transcendence](#-ft-transcendence)
+- [🌍 Webserv](#-webserv)
+- [🏓 Transcendence](#-transcendence)
 
 ---
 
@@ -35,7 +35,7 @@ Reimplementation of the standard `printf()` function in C.
 
 ---
 
-## 📄 get_next_line
+## 📄 Get_next_line
 Function that returns a line from a file descriptor.
 
 ---
@@ -45,7 +45,7 @@ Systems administration exercise focused on virtualization and Linux basics.
 
 ---
 
-## 🔢 push_swap
+## 🔢 Push_swap
 Stack sorting algorithm with minimal operations.
 
 ---
@@ -79,12 +79,12 @@ With the -v flag, the program displays the original formatted output. Without it
 
 ---
 
-## 💻 minishell
+## 💻 Minishell
 Implementation of a simple shell that reproduces basic Bash behavior. Includes process management, redirections, pipes, and built-in commands.
 
 ---
 
-## 🌌 miniRT
+## 🌌 MiniRT
 Basic ray tracing renderer. Generates realistic images from geometric objects and light sources.
 
 ---
@@ -121,13 +121,13 @@ More details in its [readme.md](https://github.com/jlutrera/42Madrid-CommonCore/
 
 ---
 
-## 🌍 webserv
+## 🌍 Webserv
 Implementation of an HTTP server in C++. 
 Supports multiple connections, GET/POST requests, and CGI execution.
 
 ---
 
-## 🏓 ft_transcendence
+## 🏓 Transcendence
 Full web application for a Pong tournament. Features:
 - User authentication.
 - Real-time chat.
