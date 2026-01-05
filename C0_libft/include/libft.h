@@ -20,7 +20,6 @@
 # include <stdint.h>
 # include <stdbool.h>
 # include <fcntl.h>
-# include <stdarg.h>
 
 void	*ft_memset(void *dest, int c, size_t n);
 void	ft_bzero(void *b, size_t n);
@@ -72,3 +71,4 @@ t_list	*ft_lstmap(t_list *lst,	void *(*f)(void *), void (*del)(void *));
 t_list	*ft_lstlast(t_list *lst);
 
 #endif
+
