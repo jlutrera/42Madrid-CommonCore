@@ -71,44 +71,4 @@ void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst,	void *(*f)(void *), void (*del)(void *));
 t_list	*ft_lstlast(t_list *lst);
 
-//get_next_line project
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
-# endif
-char	*get_next_line(int fd);
-int		ft_findnl(char *s);
-char	*ft_adjust_buff(char *s, int pos_nl, int i);
-
-//ft_printf project
-static const char	g_base[] = "0123456789abcdef";
-typedef struct s_flags{
-	int		dot;
-	bool	sharp;
-	bool	add;
-	bool	minus;
-	bool	space;
-	bool	zero;
-	int		width;
-	int		prec;
-	char	type;
-}	t_flags;
-int		ft_printf(char const *format, ...);
-int		ft_putchar(char c);
-int		ft_putchar_bonus(char c, t_flags flags);
-int		ft_putstr(char *s);
-int		ft_putstr_bonus(char *s, t_flags flags);
-int		ft_putdigit(long n, t_flags flags);
-int		ft_putunsigned(unsigned long n, t_flags flags);
-int		ft_puthex(unsigned int nb, t_flags flags);
-int		ft_putpointer(void *pointer, t_flags flags);
-int		char_in_str(char c, char const *s);
-int		len_str(char *s);
-int		len_number(long n, int len_base);
-int		ulen_number(unsigned long n, int len_base);
-char	*ft_uitoa(unsigned long n);
-t_flags	read_flags(char *s, va_list ap);
-int		ft_zeros(t_flags flags, char c, int len);
-int		ft_spaces(t_flags flags, char c, int len);
-int		putdigit(char *s, t_flags flags, char c, int len);
-
 #endif
